@@ -4,7 +4,7 @@
     text-decoration: none;
     list-style: none;
     color: black;
-    
+
 
 }
 
@@ -211,10 +211,9 @@ pre {
 
 }
 
-.cardlogo1 {
+#cardlogo1 {
     width: 285px;
     height: 446px;
-
     gap: 30px;
 }
 
@@ -403,7 +402,7 @@ p {
 
 .footerdiv {
     margin-top: 74px;
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
 }
 
@@ -516,10 +515,11 @@ p {
     background: none;
 }
 
-.footerimg{
+.footerimg {
     position: relative;
     transform: translateX(122px);
 }
+
 .copywitediv {
     color: #000;
     font-family: Poppins;
@@ -531,25 +531,29 @@ p {
     margin-left: 100px;
 }
 
-@media (max-width:400px) and (min-width:1300){
-    body{
+@media (max-width:400px) and (min-width:1300) {
+    body {
         position: relative;
         transform: translateX(102px);
     }
 }
-@media (min-width:1300px) and (max-width:1500){
-    body{
+
+@media (min-width:1300px) and (max-width:1500) {
+    body {
         position: relative;
         transform: translateX(82px);
     }
 }
-@media (min-width:100px) and (max-width:390){
-    body{
+
+@media (min-width:100px) and (max-width:390) {
+    body {
         position: relative;
         transform: translateX(82px);
         width: fit-content;
     }
 }
+
+/* ============= */
 
 .image-card {
     position: relative;
@@ -559,7 +563,7 @@ p {
 
 .image-card img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .image-overlay {
@@ -595,7 +599,6 @@ p {
 
 .image-card {
     z-index: 1;
-    height: fit-content;
 }
 
 .image-overlay {
