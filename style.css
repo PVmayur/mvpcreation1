@@ -595,6 +595,7 @@ p {
 
 .image-card {
     z-index: 1;
+    height: fit-content;
 }
 
 .image-overlay {
