@@ -1,0 +1,504 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+body {
+  overflow-x: hidden;
+  width: 1440px;
+}
+
+.navbar {
+  display: flex;
+  width: 1440px;
+  height: 100px;
+  flex-shrink: 0;
+  background: #FFF;
+
+}
+
+.navdiv1 {
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+  width: 1286px;
+  height: 41px;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.navlist2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  width: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 62px;
+}
+
+.logo {
+
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 62px;
+}
+
+/* headbox */
+
+.headboxdiv {
+
+  width: 1440px;
+  height: 316px;
+  background-image: url(image/s.headbox.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.headboxtext {
+  width: 124px;
+  height: auto;
+  line-height: 34px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+/* hesdsmallbox */
+
+.headsmallboxdiv {
+  width: 1440px;
+  height: 100px;
+  background-color: #F9F1E7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 390px;
+}
+
+.headsmallboxul {
+  display: flex;
+  gap: 29px;
+
+}
+
+/* card */
+
+.carddiv {
+
+  width: 1440px;
+  height: auto;
+}
+
+.cardmainbox {
+  margin-left: 84px;
+  margin-top: 48px;
+  display: flex;
+  column-gap: 43px;
+
+}
+
+.cardul {
+  position: relative;
+  transform: translateY(10px)translateX(20px);
+}
+
+.img-card {
+  width: 285px;
+  height: 446px;
+  gap: 30px;
+}
+
+.cardbox1 {
+  position: relative;
+}
+
+.cardbox2 {
+  width: 285px;
+  height: 145px;
+  flex-shrink: 0;
+  background: var(--Color-Light-BG, #F4F5F7);
+}
+
+.cardlist1 {
+  color: var(--Color-Gray-1, #3A3A3A);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+
+}
+
+.cardlist2 {
+  color: var(--Color-Gray-3, #898989);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+
+}
+
+.cardlist3 {
+  color: var(--Color-Gray-1, #3A3A3A);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+
+
+}
+
+.cardlist4 {
+  color: var(--Color-Gray-4, #B0B0B0);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  position: relative;
+  transform: translateX(123px)translateY(-28px);
+  text-decoration: line-through;
+}
+
+.image-card {
+  position: relative;
+  width: 283px;
+  /* Set width as needed */
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+}
+
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image-overlay h2,
+.image-overlay p {
+  margin: 0;
+  padding: 10px;
+}
+
+.image-card:hover .image-overlay {
+  opacity: 1;
+
+}
+
+
+/* changes in hover */
+
+.image-card {
+  z-index: 1;
+}
+
+.image-overlay {
+  z-index: 1;
+}
+
+.hover1 {
+  transform: translateY(55px);
+}
+
+.hover2 {
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  color: burlywood;
+  background-color: white;
+  border: none;
+  font-weight: 1000;
+  font-size: 20px;
+  position: relative;
+  display: flex;
+}
+
+.hover3 {
+  margin-top: 47px;
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+.hover5 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  column-gap: 15px;
+  color: white;
+}
+
+.hover6 {
+  margin: -11px;
+}
+
+.hover7 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  column-gap: 20px;
+  color: white;
+}
+
+.hover8 {
+  margin: -20px;
+}
+
+.hover9 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  column-gap: 15px;
+  color: white;
+}
+
+.hover10 {
+  margin: -8px;
+}
+
+.hoverlink {
+  color: #B88E2F;
+}
+
+p {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transform: translateY(-419px)translateX(214px);
+
+
+}
+
+.cardp1 {
+  background-color: #E97171;
+  position: relative;
+
+}
+
+
+/* index */
+
+.cardindex {
+  width: 422px;
+  height: 90px;
+  display: flex;
+  inline-size: -webkit-fill-available;
+  justify-content: center;
+  gap: 33px;
+}
+
+.cardlogo-1 {
+  width: 50px;
+  height: 50px;
+}
+
+.cardlogo-2 {
+  width: 100px;
+  height: 50px;
+}
+
+
+/* footrinfo */
+
+.footerinfodiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 7px;
+  background-color: #FAF3EA;
+}
+
+/* mainfooter */
+
+.footerdiv {
+  margin-top: 74px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footerul1 {
+  line-height: 55px;
+}
+
+.footerlist1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+
+}
+
+.footerlist2 {
+  width: 285px;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: normal;
+
+}
+
+.footerul2 {
+  line-height: 40px;
+}
+
+.footerlist3 {
+
+  font-family: Poppins;
+  font-size: 16px;
+
+}
+
+.footerlist4 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+
+}
+
+.footerlist5 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+
+}
+
+.footerlist6 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+
+}
+
+.footerlist7 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+
+}
+
+.footerul3 {
+  line-height: 40px;
+}
+
+.footerlist8 {
+
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.footerlist9 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.footerlist10 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.footerlist11 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.footerul4 {
+  line-height: 38px;
+}
+
+.footerlist12 {
+
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+
+
+.footerinput {
+  border: none;
+  text-decoration: underline;
+}
+
+.footerbtn {
+  border: none;
+  text-decoration: underline;
+  background: none;
+}
+
+.footerimg {
+  position: relative;
+  transform: translateX(122px);
+}
+
+.copywitediv {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 23px;
+  margin-left: 100px;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+@media (min-width:0px) and (max-width:450px) {
+  body {
+      
+      transform: translateX(22px);
+      
+  }
+}
+
+@media (min-width:460px) and (max-width:1299px)  {
+  body {
+      position: relative;
+      transform: translateX(33px);
+  }
+}
+
+@media (min-width:1300px) and (max-width:1424px) {
+  body {
+      position: relative;
+      transform: translateX(82px);
+  }
+}
