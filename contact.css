@@ -357,4 +357,32 @@ textarea {
   html{
     scroll-behavior: smooth;
 }
-  
+
+
+@media (min-width:0px) and (max-width:450px) {
+  body {
+      
+      transform: translateX(22px);
+      
+  }
+}
+
+@media (min-width:460px) and (max-width:1299px)  {
+  body {
+      position: relative;
+      transform: translateX(33px);
+  }
+}
+
+@media (min-width:1300px) and (max-width:1424px) {
+  body {
+      position: relative;
+      transform: translateX(82px);
+  }
+}
+@media (min-width:1425px) and (max-width:4000px) {
+  body {
+      position: relative;
+      transform: translateX(35px);
+  }
+}
