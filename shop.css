@@ -502,3 +502,9 @@ html{
       transform: translateX(82px);
   }
 }
+@media (min-width:1425px) and (max-width:4000px) {
+  body {
+      position: relative;
+      transform: translateX(35px);
+  }
+}
